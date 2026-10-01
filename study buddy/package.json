@@ -1,0 +1,37 @@
+{
+  "name": "ai-weatherwise",
+  "version": "1.0.0",
+  "description": "AI-Augmented Backend Platform delivering intelligent weather forecasts, personalized recommendations, and favorite location tracking with Google Gemini AI and OpenWeatherMap.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "gemini-ai",
+    "openweathermap",
+    "weather",
+    "jwt",
+    "mvc"
+  ],
+  "author": "Tamil Mathi.v (SWTID-2026-5400)",
+  "repository": "https://github.com/tamilmathiv60-ui/ai-weather-wise",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
